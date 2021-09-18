@@ -1,0 +1,87 @@
+.nav{
+    background-color: 
+    #4D9CFF;
+    height: 50px;
+}
+
+.icon{
+    padding-left: 100px ;
+    display: flex;
+}
+.icon >img{
+    padding: 10px;
+}
+
+.locate{
+    display: flex;
+   padding-top: 15px;
+    align-items: baseline;
+    position: absolute;
+    right: 300px;
+
+}
+.call{
+    display: flex;
+    padding-top: 15px;
+     align-items: baseline;
+     position: absolute;
+     right: 100px;
+ 
+}
+
+.title{
+    margin-left: 50%;
+    margin-right: 10%;
+}
+
+.blue-strip{
+    width: 90.02%;
+height: 226.22px;
+left: 194.19px;
+top: 731.08px;
+margin-left: 10%;
+background: #4D9CFF;
+}
+
+.blue-strip >ul,li{
+    color: #fff;
+    font-size: 22px;
+}
+
+.card{
+    background: #FFFFFF;
+box-shadow: 0px 2px 23px rgba(0, 71, 240, 0.0949775);
+border-radius: 8px;
+}
+/* .card-body{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+} */
+
+.covidtest{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 20% 40% 20%;
+}
+.covidtest > .first.third >h3{
+    font-size: 16px;
+}
+
+.social-icons >img{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;  
+}
+
+.social-icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 500px;
+    position: absolute;
+    left: 400px;
+    padding-top: 40px;
+}
+
